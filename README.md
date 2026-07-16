@@ -95,3 +95,7 @@ For reporting security issues please visit [this page](https://icinga.com/contac
 [Documentation]: #documentation
 [Support]: #support
 [Contributing]: #contributing
+
+---
+
+> **Created by Antono**
