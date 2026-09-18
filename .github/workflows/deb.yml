@@ -48,7 +48,7 @@ jobs:
           access_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Checkout HEAD
-        uses: actions/checkout@v1
+        uses: actions/checkout@v4
 
       - name: deb-icinga2
         run: |
@@ -72,7 +72,7 @@ jobs:
 
       - name: Restore/backup ccache
         id: ccache
-        uses: actions/cache@v1
+        uses: actions/cache@v4
         with:
           path: deb-icinga2/ccache
           key: |-
